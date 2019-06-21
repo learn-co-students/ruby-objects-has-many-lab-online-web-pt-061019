@@ -23,11 +23,6 @@ class Author
     @posts << post
     post.author = self  #=> author
     post.title = title
-<<<<<<< HEAD
-    # binding.pry
-=======
-    binding.pry
->>>>>>> 0fd860c21f4f4d3a12995aee44f7b8b0a29040e6
   end
 
   def posts
